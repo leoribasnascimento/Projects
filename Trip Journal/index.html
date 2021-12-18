@@ -5,10 +5,38 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Diário de Viagem - Família Ribas Nascimento</title>
+    <Style>
+        table {
+            width: 500px;
+        }
+
+        thead {
+            background-color: gray;
+            color: white;
+        }
+
+        tfoot {
+            background-color: black;
+            color: white;
+        }
+
+        th, td {
+            border: 1px solid black;
+            padding: 10px;
+        }
+
+        th.main {
+            padding: 20px;
+        }
+
+        th.second {
+            padding: 15px;
+        }
+    </Style>
 </head>
 <body>
     <h1>Viagem de carro ao Piauí</h1>
-    <p>Página destinada a relatar viagem realizada por Leonardo, Letícia, Jurandira e Raimundo.</p>
+    <p>Página destinada ao relato de viagem da cidade do Rio de Janeiro-RJ à cidade de Teresina-PI realizada por Leonardo, Letícia, Jurandira e Raimundo.</p>
     <img src="images/sunset-g32237229a_640.jpg" alt="Foto pôr do sol na estrada no Piauí">
     <p>Nessa viagem foi possível conhecer lugares como:</p>
     <ul>
@@ -20,6 +48,40 @@
         <li>Picos (Piauí)</li>
         <p>... entre outros.</p>
     </ul>
-  
+    <p>
+        Na tabela abaixo, é possível ver os custos de viagem relativos à diferentes tipos:
+        <table>
+            <thead>
+                <tr>
+                    <th class="main"  colspan="2">Despesa: Alimentação</th>
+                </tr>
+                <tr>
+                    <th class="second">Local</th>
+                    <th>Valor</th> 
+                </tr>
+               
+            </thead>
+            <tbody>
+                <tr>
+                    <td>Vitória</td>
+                    <td>60.00</td>
+                </tr>
+                <tr>
+                    <td>Porto Seguro</td>
+                    <td>73.00</td>
+                </tr>
+                <tr>
+                    <td>Juazeiro</td>
+                    <td>50.00</td>
+                
+            </tbody>
+            <tfoot>
+                <tr>
+                    <th>Total Alimentação</th>
+                    <td>183.00</td>
+                </tr>
+            </tfoot>
+        </table>
+    </p>
 </body>
 </html>
